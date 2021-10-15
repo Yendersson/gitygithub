@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: hsl(210, 46%, 95%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:hsl(217, 19%, 35%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenido{
+    /*display: flex;*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.titulo{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.boton{
+    background-color:rgb(97, 148, 199);
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+.boton:hover:hover{
+    background-color: aqua;
+}
+
+.texto{
+    padding: 30px;
+}
+
+.oferta{
+    width: 50%;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /*background-color: hsl(217, 19%, 35%);*/
+    background-image: url("https://image.freepik.com/vector-gratis/signo-interrogacion-moderno-pagina-ayuda-soporte_1017-27395.jpg");
+}
+
+.destacados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto{
+    background-color: hsl(217, 19%, 35%);
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.img-producto{
+    width: 180px;
+    height: 180px;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-1{
+    color: white;
+    width: 100%;
+    margin: 5px;
+    /*background-color: hsl(217, 19%, 35%);*/
+    background-image: url("https://www.muycomputer.com/wp-content/uploads/2019/09/Qu%C3%A9-procesador-comprar-en-2019.jpg");
+    height: 150px;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: hsl(217, 19%, 35%);
+    height: 20px;
+}
+
+.dark{
+    background-color: black;
+}
+
