@@ -1,97 +1,150 @@
 body{
     margin: 0;
-    background-color: hsl(210, 46%, 95%);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:hsl(192, 15%, 94%);
 }
 
-.menu{
+header{
+    position: sticky;
+    top: 0px;
+    background-color:hsl(210, 29%, 13%);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.barra-busqueda{
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.first-part{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:hsl(217, 19%, 35%);
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.contenido{
-    /*display: flex;*/
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-}
-
-.titulo{
-    display: flex;
-    margin-bottom: 20px;
 }
 
 .boton{
-    background-color:rgb(97, 148, 199);
+    width: 200px;
+    padding: 10px;
     border: none;
-    width: 150px;
-    height: 30px;
+    background-color:lightskyblue;
 }
 
-.boton:hover:hover{
-    background-color: aqua;
-}
-
-.texto{
-    padding: 30px;
-}
-
-.oferta{
-    width: 50%;
-    height: 300px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /*background-color: hsl(217, 19%, 35%);*/
-    background-image: url("https://image.freepik.com/vector-gratis/signo-interrogacion-moderno-pagina-ayuda-soporte_1017-27395.jpg");
+.imagen{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .destacados{
+    width: 100%;
+}
+
+.productos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.producto{
-    background-color: hsl(217, 19%, 35%);
-    width: 200px;
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
-.img-producto{
-    width: 180px;
-    height: 180px;
-}
-
-.categoria{
+.producto-1{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    border-radius: 10px;
+    background-color: hsl(192, 15%, 95%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+
+.producto-1:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.img-producto{
+    width: 200px;
+    height: 130px;
+    align-self: center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .categoria-1{
-    color: white;
-    width: 100%;
-    margin: 5px;
-    /*background-color: hsl(217, 19%, 35%);*/
-    background-image: url("https://www.muycomputer.com/wp-content/uploads/2019/09/Qu%C3%A9-procesador-comprar-en-2019.jpg");
-    height: 150px;
+    width: 99%;
+    height: 200px;
     border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: url("http://http2.mlstatic.com/D_855813-MLA44664286996_012021-O.jpg");
+
+}
+.categoria-2{
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: url("https://www.muycomputerpro.com/movilidad-profesional/wp-content/uploads/2020/04/Cat%C3%A1logo_procesadores_Intel.jpg");
+
+}
+.categoria-3{
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: url("https://tarjetasgraficaspc.com/wp-content/uploads/2019/05/Diferencias-entre-la-tarjeta-gr%C3%A1fica-integrada-y-dedicada.jpg");
+    
+
+}
+.categoria-4{
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   background-image: url("https://i.blogs.es/3ce3df/ddr5/1366_521.jpg");
+
 }
 
-.footer{
+.categoria-1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+footer{
+    display: grid;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    background-color: hsl(217, 19%, 35%);
-    height: 20px;
+    background-color: hsl(210, 29%, 13%);
+    width: 80%;
+    grid-template-columns: 40% 30% 30%;
+    color: white;
+    text-align: center;
 }
-
-.dark{
-    background-color: black;
-}
-
