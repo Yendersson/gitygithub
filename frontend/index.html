@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/frontend/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>OjoGamer</title>
+    <link rel="stylesheet" href="/frontend/estilos/estilo.css">
+</head>
+ 
+<body>
+    <header>
+        <nav>
+           <a href="index.html"><img src="/frontend/images/logo2.png" alt="Logo"></a> 
+        </nav>
+        <nav>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <nav id="producto" class="productos">
+            <span>Productos</span>
+
+            <!--------------------------------------------SUBMENU-------------------------------------------------->
+            <ul class="lista ocultar" id="li-producto">
+                <li><a href="ofertas.html">
+                        <p>Oferta</p>
+                    </a></li>
+                <li><a href="#destac">
+                        <p>Destacados</p>
+                    </a></li>
+                <li><a href="#cat">
+                        <p>Categorias</p>
+                    </a></li>
+            </ul>
+            <!---------------------------------------FIN SUBMENU------------------------------------------------------------->
+
+        </nav>
+        <form action="">
+            <input type="text" name="" id="" placeholder="buscar" class="barraBusqueda">
+            <button><img src="" alt=""></button>
+        </form>
+        <nav>
+            <div class="ubicacion" id="localidad">
+                <span>Ubicacion</span><img src="images/room_white_48dp.svg" alt="ubicacion">
+            </div>
+
+            <!--******************************************SUBMENU**************************************************-->
+            <ul class="lista ocultar" id="li-ubicacion">
+                <li>
+                    <p>Argentina</p>
+                </li>
+                <li>
+                    <p>Brasil</p>
+                </li>
+                <li>
+                    <p>Colombia</p>
+                </li>
+                <li>
+                    <p>Mexico</p>
+                </li>
+                <li>
+                    <p>USA</p>
+                </li>
+                <li>
+                    <p>UE</p>
+                </li>
+            </ul>
+            <!--****************************************FIN SUBMENU*************************************************-->
+
+        </nav>
+        <div>
+           <a href="carrito.html"><img src="images/shopping_cart_white_24dp.svg" alt="carrito"></a> 
+        </div>
+        <div>
+            <a href="login.html" id="sesion"><button class="inicio-sesion" id="inicio">Inciar sesion</button></a>
+
+        </div>
+    </header>
+
+    <div class="ocultar" id="bienvenida-usuario"><h1 id="bienvenida"></h1></div>
+
+    <main>
+        <section class="contenido-1">
+
+            <div class="flex">
+                <div class="title">
+                    <h2>Bienvenido a Ojo Gamer</h2>
+                     <p>Somos una tienda la cual nos orientamos en brindarle los mejores productos y precios
+                        a nuestras clientes con la finalidad de mejorar su comodidad y rendimiento de juego
+                        ¿Que esperas para convertirte en un gamer o mejorar el rendimiento de tu maquina?
+                        Echale un vistazo a las ofertas y descubrelo por ti mismo</p>
+                </div>
+                <button class="boton" id="ver-oferta">Ver Ofertas</button>
+            </div>
+
+            <div class="imagen-oferta">
+                <img src="https://navidad.es/wp-content/uploads/2016/01/Guardar-la-decoraci%C3%B3n-navide%C3%B1a-3.jpg"
+                    alt="Oferta" class="imagen">
+            </div>
+        </section>
+        <!------------------------------------------------------------- DESTACADOS ------------------------------------>
+        <h3 id="destac">Destacados</h3>
+        <hr>
+        <section class="contenido-2" id="destacados">
+
+    
+        </section>
+
+        <!-----------------------------------------------------CATEGORIAS--------------------------------------------------------->
+        <h3 id="cat">Categoria</h3>
+        <div class="contenido-3">
+
+            <div class="categoria-1" id="cat-1">
+                <div class="fondo-1">
+                    <img src="/frontend/images/teclado.png" alt="img-categoria" class="img-categoria">
+                </div>
+                <div class="title-categoria-1">
+                    <p class="titulos">ARMATE CON LO MEJOR EN GAMING</p>
+                </div>
+            </div>
+            <div id="produccion" class="ocultar">
+            </div>
+
+            <div class="categoria-2" id="cat-2">
+                <div class="fondo-2">
+                    <img src="/frontend/images/ram.png" alt="img-categoria" class="img-categoria">
+                </div>
+                <div class="title-categoria-2">
+                    <p class="titulos">DESPREOCUPATE DE COLGARTE O QUEDARTE SIN ESPACIO</p>
+                </div>
+            </div>
+            <div id="produccion-2" class="ocultar">
+            </div>
+
+
+            <div class="categoria-3" id="cat-3">
+                <div class="fondo-3">
+                    <img src="/frontend/images/procesadores.png" alt="img-categoria" class="img-categoria-procesador">
+                </div>
+                <div class="title-categoria-3">
+                    <p class="titulos">ENCUENTRA EL MEJOR RENDIMIENTO</p>
+                </div>
+            </div>
+            <div id="produccion-3" class="ocultar">
+            </div>
+
+
+            <div class="categoria-4" id="cat-4">
+                <div class="fondo-4">
+                    <img src="/frontend/images/grafica.png" alt="img-categoria" class="img-categoria-grafica">
+                </div>
+                <div class="title-categoria-4">
+                    <p class="titulos">LLEVA LOS GRAFICOS A UN NIVEL PRO</p>
+                </div>
+            </div>
+            <div id="produccion-4" class="ocultar">
+            </div>
+
+
+            <div class="categoria-5" id="cat-5">
+                <div class="fondo-5">
+                    <img src="/frontend/images/cat5.png" alt="img-categoria">
+                </div>
+                <div class="title-categoria-5">
+                    <p class="titulos">CONVIERTE EN GAMER EN UN CLICK</p>
+                </div>
+            </div>
+            <div id="produccion-5" class="ocultar">
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="info">
+            <p>INFORMACION</p>
+            <p>Terminos y condiciones</p>
+            <p>Politica</p>
+            <p>Acerca de nosotros</p>
+        </div>
+        <div>
+            <p>SIGUENOS</p>
+            <div class="redes">
+               <a href=""><img src="/frontend/images/icon-facebook.svg" alt=""></a> 
+               <a href=""><img src="/frontend/images/icon-twitter.svg" alt=""></a> 
+               <a href=""><img src="/frontend/images/icons8-instagram.svg" alt=""></a> 
+            </div>
+        
+        </div>
+        <div class="contact">
+           <p id="contact">CONTACTO</p> 
+            <p>Tel: 23156489</p>
+            <p>Mail: tienda@gmail.com</p>
+            <p>&copy;copyrigth 2021</p>
+        </div>
+    </footer>
+
+    <script src="/js/jscript.js"></script>
+</body>
+
+</html>

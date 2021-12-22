@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/frontend/images/favicon.png">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/frontend/estilos/registro.css">
+</head>
+
+<body>
+    <div>
+        <img src="/frontend/images/logo2.png" alt="logo">
+    </div>
+    <section class="inicio">
+        <h1>Registro</h1>
+        <form id="formRegistro" class="formulario">
+            <div class="ingreso">
+                <label>Usuario:</label>
+                <input type="text" name="user" id="user" placeholder="Nombre de Usuario" required class="textfield">
+            </div>
+            <div class="ingreso">
+                <label>Mail:</label>
+                <input type="email" name="email" id="email" placeholder="Mail" required class="textfield">
+            </div>
+            <div class="ingreso">
+                <label>Contraseña:</label>
+                <input type="password" name="password" id="password" placeholder="Contraseña" required
+                    class="textfield">
+            </div>
+            <div class="ingreso">
+                <label>Confirmacion de contraseña:</label>
+                <input type="password" name="password2" id="password2" placeholder="confirma contraseña" required
+                    class="textfield">
+            </div>
+            <button>Registrarse</button>
+        </form>
+    </section>
+    <script src="/js/registro.js"></script>
+</body>
+
+</html>

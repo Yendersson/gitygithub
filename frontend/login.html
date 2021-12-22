@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/frontend/images/favicon.png">
+    <title>Login</title>
+    <link rel="stylesheet" href="/frontend/estilos/registro.css">
+</head>
+<body>
+
+        <div class="img-logo">
+                <img src="/frontend/images/logo2.png" alt="logo">
+            </div>
+        <section class="inicio">
+           
+            <h1>Inicio Sesion</h1>
+            <!--**********************************************************INICIO DE SESION*********************************************************-->
+
+            <form class="formulario" id="formLogin">
+                <div class="ingreso">
+                    <label for="">Correo:</label> 
+                <input type="email" name="email" id="email" placeholder="Ingresar aqui el usuario" class="textfield">
+
+                </div>
+                
+                <div class="ingreso">
+                   <label for=""> Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="ingresa la contraseña" class="textfield">
+                </div> 
+                <button id="ingresar">Ingresar</button> 
+                <div class="flex">
+                <a href="registro.html">Crear Cuenta</a>
+                </div>
+                
+            </form>
+            </section>
+        <script src="/js/login.js"></script>
+    </body>
+</html>

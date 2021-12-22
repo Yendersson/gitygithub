@@ -1,0 +1,130 @@
+body{
+    background-color: hsl(192, 15%, 94%);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/****************MENU***************************************************/
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color:hsl(210, 29%, 13%);
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    color: white;
+}
+
+.productos:hover{
+    cursor: pointer;
+}
+
+.barraBusqueda{
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ubicacion:hover{
+    cursor: pointer;
+}
+
+.inicio-sesion{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(145, 63%, 49%);
+    color: white;
+}
+
+.inicio-sesion:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: hsl(145, 63%, 37%);
+}
+/****************************************SUBMENUS*************************************************************/
+
+
+li{
+    list-style: none;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: hsl(210, 29%, 18%);
+}
+
+
+.lista{
+    background-color: hsl(210, 29%, 13%);
+    position: absolute;
+    padding: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+main{
+    display: flex;
+}
+.total{
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.productos-comprar{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+.producto-carrito{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-producto{
+   width: 100%;
+
+}
+
+.btn-comprar{
+    width: 250px;
+    height: 50px;
+    background-color: hsl(145, 63%, 49%);
+    border: none;
+    color: white;
+}
+
+.btn-comprar:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
+

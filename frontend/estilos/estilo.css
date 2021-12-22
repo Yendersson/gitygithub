@@ -1,0 +1,399 @@
+body{
+    background-color: hsl(192, 15%, 94%);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/****************MENU***************************************************/
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color:hsl(210, 29%, 13%);
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    color: white;
+}
+
+.logo{
+    width: 60px;
+    height: 50px;
+}
+
+.productos:hover{
+    cursor: pointer;
+}
+
+.barraBusqueda{
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ubicacion:hover{
+    cursor: pointer;
+}
+
+.inicio-sesion{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(145, 63%, 49%);
+    color: white;
+}
+
+.inicio-sesion:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: hsl(145, 63%, 37%);
+}
+/****************************************SUBMENUS*************************************************************/
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: hsl(210, 29%, 18%);
+}
+
+
+.lista{
+    background-color: hsl(210, 29%, 13%);
+    position: absolute;
+    padding: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+/**************************************FIN SUBMENUS*******************************************************/
+
+.bienvenida{
+    text-align: center;
+    width: 100%;
+    color: lightslategray;
+}
+
+.contenido-1{
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 350px;
+    padding: 10px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    margin: 10px;
+}
+.boton{
+    background-color: hsl(208, 92%, 48%);
+    border: none;
+    padding: 5px;
+    width: 180px;
+    height: 40px;
+    align-self: center;
+    color: white;
+}
+.boton:hover{
+    background-color: hsl(212, 72%, 63%);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.imagen-oferta{
+    width: 100%;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    text-align: center;
+}
+.contenido-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+.card{
+    background-color: hsl(192, 15%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 31.7px;
+    width: 210px;
+    /*height: 300px;*/
+    border-radius: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    
+}
+.card> p{
+    padding: 0px 5px 0 5px;
+    margin: 10px;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.7s;
+}
+
+.img-producto{
+    width: 100%;
+    /*height: 55%;  */
+    height: 170px;
+}
+
+.ver-producto{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+.ver-producto:hover{
+    text-decoration: underline;
+}
+
+.precio{
+    margin: 0;
+    padding-left: 8px;
+    font-size: 18px;
+}
+.nombre-producto{
+    font-size: 13px;
+    color: gray;
+    margin: 0;
+    padding: 8px;
+}
+
+.contenido-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria-1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.categoria-1:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+.title-categoria-1{
+    background-color:hsl(2, 92%, 48%);
+}
+.fondo-1{
+    background-image: url("https://media.istockphoto.com/vectors/vector-grunge-textured-background-beautiful-abstract-decorative-red-vector-id1225740014?k=20&m=1225740014&s=612x612&w=0&h=HPhbN1L4GrzASzoewYMl_8avVBriyP2Q83v85eZ6W9M=");
+    background-size: cover;
+}
+.fondo-2{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-green-halftone-background-vector-id1185154743?k=20&m=1185154743&s=612x612&w=0&h=kULCgCHMynGxJd8Ucfn1hBAZR-zQv3QOgQEOark8B_A= ");
+    background-size: cover;
+}
+
+.img-categoria-2{
+    width: 80%;
+    height: 200px;
+}
+
+.categoria-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.categoria-2:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.title-categoria-2{
+    background-color:hsl(126, 92%, 48%);
+}
+
+.categoria-3{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.categoria-3:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.fondo-3{
+    background-size: cover;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88353d06-9d89-49cc-9422-d9c5f41e3c16/dbo84wx-093d37a9-646b-4a29-b10d-f5feb1f0154d.jpg/v1/fill/w_1192,h_670,q_70,strp/fondo_azul_cool_by_ferxo129_dbo84wx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvODgzNTNkMDYtOWQ4OS00OWNjLTk0MjItZDljNWY0MWUzYzE2XC9kYm84NHd4LTA5M2QzN2E5LTY0NmItNGEyOS1iMTBkLWY1ZmViMWYwMTU0ZC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-3tg1mQ4H5PgwFBs_ArC8b-6UHAYSNTr-VU0T19Wr4c");
+}
+
+.title-categoria-3{
+    background-color:hsl(208, 92%, 48%);
+}
+
+.categoria-4{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.categoria-4:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.fondo-4{
+    background-size: cover;
+    background-image: url("https://e7.pngegg.com/pngimages/895/699/png-clipart-blackboard-texture-black-background-black-textured.png");
+}
+
+.title-categoria-4{
+    background-color:hsl(210, 29%, 15%);
+}
+
+.categoria-5{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.categoria-5:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.fondo-5{
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/987/680/non_2x/abstract-diagonal-vibrant-yellow-orange-background-technology-concept-free-vector.jpg");
+}
+
+.title-categoria-5{
+    background-color:hsl(26, 98%, 50%);
+}
+
+.img-categoria{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+    height: 160px;
+}
+.img-categoria-grafica{
+    position: relative;
+    top: -100px;
+    left: 150px;
+}
+
+.img-categoria-procesador{
+    position: relative;
+    top: 20px;
+    width: 200;
+    height: 160px;
+    left: 190px;
+}
+.titulos{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.produccion{
+    display: flex;
+}
+    /*botones*/
+
+
+footer{
+    padding: 30px;
+    background-color: hsl(210, 29%, 13%);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.redes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,130 @@
+body{
+    background-color: hsl(192, 15%, 94%);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color:hsl(210, 29%, 13%);
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    color: white;
+}
+
+.productos:hover{
+    cursor: pointer;
+}
+
+.barraBusqueda{
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ubicacion:hover{
+    cursor: pointer;
+}
+
+.inicio-sesion{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(145, 63%, 49%);
+    color: white;
+}
+
+.inicio-sesion:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: hsl(145, 63%, 37%);
+}
+/****************************************SUBMENUS*************************************************************/
+
+li{
+    list-style: none;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: hsl(210, 29%, 18%);
+}
+
+
+.lista{
+    background-color: hsl(210, 29%, 13%);
+    position: absolute;
+    padding: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+main{
+    display: flex;
+    margin: 5%;
+}
+
+.img{
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.img-producto{
+    width: 100%;
+    
+    
+}
+.contenido-producto{
+    width: 600px;
+    font-size: 1.2rem;
+    /*text-align: center;*/
+    margin-left: 50px;
+}
+
+.contenido-producto p{
+    color: darkgray;
+}
+
+.comprar{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: hsl(145, 63%, 49%);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.comprar:hover{
+    cursor:pointer;
+    background-color: green;
+    transition: 71ms;
+}
