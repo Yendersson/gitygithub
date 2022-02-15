@@ -397,3 +397,7 @@ footer p{
     display: flex;
     justify-content: space-around;
 }
+
+.redes img{
+    vertical-align: middle;
+}
