@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ecommerces",
+      "handler": "ecommerce.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ecommerces/count",
+      "handler": "ecommerce.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ecommerces/:id",
+      "handler": "ecommerce.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ecommerces",
+      "handler": "ecommerce.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ecommerces/:id",
+      "handler": "ecommerce.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ecommerces/:id",
+      "handler": "ecommerce.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

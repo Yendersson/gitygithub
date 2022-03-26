@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carritos",
+  "info": {
+    "name": "carrito",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "integer"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "carrito"
+    },
+    "ecommerces": {
+      "collection": "ecommerce"
+    }
+  }
+}

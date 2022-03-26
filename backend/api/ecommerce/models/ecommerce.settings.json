@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ecommerces",
+  "info": {
+    "name": "Ecommerce",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "categoria": {
+      "type": "integer"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "detalles": {
+      "type": "text"
+    }
+  }
+}
